@@ -9,29 +9,29 @@ import styles from "./styles.module.css";
 import Course from './course';
 import SignUp from './signup';
 
-const courses = [
-{
-  name: 'Intro to Prompt Engineering',
-  desc: 'Learn about the basics of Prompt Engineering, and how to effectively communicate with AI.',
-  isPro: true,
-  percent: 30,
-  count: 12,
-  url: 'https://learn-prompting.webflow.io/courses/intro-to-prompt-engineering',
-  src: "https://assets-global.website-files.com/655b6730173650f3f66a0f98/655e35962450a3b5e5be1276_A%20blue%20and%20pink%20abstract%20background.jpg",
-  srcset: "",
-},
-{
-  name: 'Advanced Prompt Engineering',
-  desc: "Learn how to craft Complex and Efficient Prompts for Sophisticated AI Applications.",
-  special: true,
-  isPro: true,
-  percent: 100,
-  count: 14,
-  url: 'https://learn-prompting.webflow.io/courses/advanced-prompt-engineering',
-  src: "https://assets-global.website-files.com/655b6730173650f3f66a0f98/655d3c311a302329f920daa4_Abstract%20Blue%20Pink%20Wavy%20(2)..jpg",
-  srcset: "",
-},
-]
+// const courses = [
+// {
+//   name: 'Intro to Prompt Engineering',
+//   desc: 'Learn about the basics of Prompt Engineering, and how to effectively communicate with AI.',
+//   isPro: true,
+//   percent: 30,
+//   count: 12,
+//   url: 'https://learn-prompting.webflow.io/courses/intro-to-prompt-engineering',
+//   src: "https://assets-global.website-files.com/655b6730173650f3f66a0f98/655e35962450a3b5e5be1276_A%20blue%20and%20pink%20abstract%20background.jpg",
+//   srcset: "",
+// },
+// {
+//   name: 'Advanced Prompt Engineering',
+//   desc: "Learn how to craft Complex and Efficient Prompts for Sophisticated AI Applications.",
+//   special: true,
+//   isPro: true,
+//   percent: 100,
+//   count: 14,
+//   url: 'https://learn-prompting.webflow.io/courses/advanced-prompt-engineering',
+//   src: "https://assets-global.website-files.com/655b6730173650f3f66a0f98/655d3c311a302329f920daa4_Abstract%20Blue%20Pink%20Wavy%20(2)..jpg",
+//   srcset: "",
+// },
+// ]
 
 
 

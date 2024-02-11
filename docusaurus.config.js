@@ -238,17 +238,17 @@ async function createConfig() {
           },
         ],
       },
-      announcementBar: {
-        id: "announcement",
-        content:
-          'Now available: <a href="https://learn-prompting.webflow.io/courses/intro-to-prompt-engineering">Intro to Prompt Engineering</a>',
-        backgroundColor: "#53ffd4",
-        textColor: "#000",
-        isCloseable: true,
-      },
+      // announcementBar: {
+      //   id: "announcement",
+      //   content:
+      //     'Now available: <a href="https://learn-prompting.webflow.io/courses/intro-to-prompt-engineering">Intro to Prompt Engineering</a>',
+      //   backgroundColor: "#53ffd4",
+      //   textColor: "#000",
+      //   isCloseable: true,
+      // },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} Learn Prompting.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Learn to proompt.`,
       },
       prism: {
         theme: lightCodeTheme,

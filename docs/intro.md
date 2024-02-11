@@ -88,16 +88,6 @@ We've developed a system to classify articles by difficulty and required technic
 
 It's worth mentioning that articles marked with 🔴 and 🟣 are designed to be understandable even without prior expertise in the subject, though having it might aid in practical application.
 
-
-
-## Feedback
-
-The single most important part of this course is your feedback!<br/>
-
-[^a]: Generative AI already appears to have claimed some jobs(@Verma_Vynck_2023), and slowed hiring at Bloomberg(@IBM_Do_2023). However, consider the news on its impact with a grain of salt. We expect more jobs to be *changed* rather than lost.
-[^b]: The AI used here is GPT-4.
-[^c]: We have read 100s of research papers and articles to find the best techniques.
-
 ## Conclusion
 
 Begin your journey into Generative AI learning by clicking the "😃 Basics" button located at the bottom right corner of this page.

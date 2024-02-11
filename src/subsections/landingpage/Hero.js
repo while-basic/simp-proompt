@@ -60,8 +60,8 @@ function Hero() {
         Discover how to utilize ChatGPT and other AI tools to achieve your objectives with our complimentary and open-source curriculum, suitable for individuals of all proficiency levels!
         </div>
         <div className="flex items-center justify-center pt-6">
-          <a href="https://learnprompting.org/docs/intro">
-          {/* <a href="https://learn-prompting.webflow.io"> */}
+          <a href="https://simp-proompt.vercel.app//docs/intro">
+          {/* <a href="https://simp-proompt.vercel.app/"> */}
             <Button
               onClick={() =>
                 React.useEffect(() => {

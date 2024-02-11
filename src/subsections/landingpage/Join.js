@@ -63,11 +63,11 @@ function Join() {
         Join a global community of learners from diverse industries, all honing the ability to effectively interact with AI through our curriculum.
         </div>
       </div>
-      <div className="flex flex-col gap-8 md:gap-0 md:flex-row items-center justify-between px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-32 text-transparent bg-clip-text bg-gradient-to-r from-[#005046] to-[#027F75] pt-14 pb-10 max-w-screen-xl mx-auto">
+      {/* <div className="flex flex-col gap-8 md:gap-0 md:flex-row items-center justify-between px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-32 text-transparent bg-clip-text bg-gradient-to-r from-[#005046] to-[#027F75] pt-14 pb-10 max-w-screen-xl mx-auto">
         {stats.map((stat, i) => (
           <StatPoint key={i} header={stat.header} subtitle={stat.subtitle} />
         ))}
-      </div>
+      </div> */}
 
       <LargeCallout className={"pt-20 tracking-tighter"}>
         <div
