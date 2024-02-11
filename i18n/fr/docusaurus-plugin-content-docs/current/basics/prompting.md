@@ -43,6 +43,3 @@ Pour ce prompt, GPT-3 (text-davinci-002) (une IA) répond parfois 9 000 000 (inc
 Si, au lieu de demander `Qu'est-ce que 1 000 000 x 9 000 ?`, nous demandons `Qu'est-ce que 1 000 000 x 9 000 ? Assurez-vous de mettre le bon nombre de zéros, même s'il y en a beaucoup :`, GPT-3 répondra 9 000 000 000 (correct). Alors, pourquoi est-ce le cas? Pourquoi la spécification supplémentaire du nombre de zéros est-elle nécessaire pour que l'IA obtienne la bonne réponse ? Comment pouvons-nous créer des prompts qui donnent des résultats optimaux sur notre tâche ? Cette dernière question, en particulier, est au centre du domaine du prompt engineering, ainsi que de ce cours.
 
 Lisez la suite pour apprendre à concevoir de bons prompts !
-
-[^1] : Shin, T., Razeghi, Y., Logan IV, R. L., Wallace, E. et Singh, S. (2020). AutoPrompt : obtention de connaissances à partir de modèles de langage avec des prompts générées automatiquement. Actes de la conférence 2020 sur les méthodes empiriques dans le traitement du langage naturel (EMNLP). [https://doi.org/10.18653/v1/2020.emnlp-main.346](https://doi.org/10.18653/v1/2020.emnlp-main.346) [↩](https://learnprompting.org/docs/basics/prompting#fnref-1)
-[^2] : Ce paragraphe vient de [https://en.wikipedia.org/wiki/Snow_in_Florida](https://en.wikipedia.org/wiki/Snow_in_Florida)[↩](https://learnprompting.org/docs/basics/prompting#fnref-2)

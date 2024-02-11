@@ -60,9 +60,7 @@ function Join() {
         <br />
         <span style={{ color: "black" }}>Elevate your prompting skills.</span>
         <div className="text-center text-default text-sm font-vietnam font-light tracking-tight px-4 md:px-30 lg:px-56 pt-10">
-          Become part of a worldwide network of learners from various
-          industries, all mastering the skill of effectively engaging with AI
-          using our curriculum
+        Join a global community of learners from diverse industries, all honing the ability to effectively interact with AI through our curriculum.
         </div>
       </div>
       <div className="flex flex-col gap-8 md:gap-0 md:flex-row items-center justify-between px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-32 text-transparent bg-clip-text bg-gradient-to-r from-[#005046] to-[#027F75] pt-14 pb-10 max-w-screen-xl mx-auto">
@@ -76,7 +74,7 @@ function Join() {
           id={"competition"}
           className="flex gap-4 justify-around flex-col md:flex-row"
         >
-          <div className="md:w-[45%] md:pl-28 md:ml-12">
+          {/* <div className="md:w-[45%] md:pl-28 md:ml-12">
             <div className="mt-8 text-4xl tracking-tighter text-center md:text-left">
               <span className="font-bold">HackAPrompt</span> Competition
             </div>
@@ -106,7 +104,7 @@ function Join() {
                 />
               </a>
             </div>
-          </div>
+          </div> */}
           <div
             className="w-[550px] h-[325px] mr-[-100px] md:flex hidden"
             style={{ paddingTop: "20px", marginTop: "-20px" }}
@@ -117,7 +115,7 @@ function Join() {
             />
           </div>
         </div>
-        <div className="pt-20">
+        {/* <div className="pt-20">
           <div style={{ touchAction: "none" }}>
             <Marquee gradient={false} speed={30}>
               {brands.map((brand, i) => (
@@ -151,7 +149,7 @@ function Join() {
           <div className="text-center opacity-80 font-medium pt-4 pb-8 text-xs md:text-lg">
             Proudly Sponsored by Industry-Leading AI Companies
           </div>
-        </div>
+        </div> */}
       </LargeCallout>
     </div>
   );

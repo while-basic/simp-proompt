@@ -96,15 +96,9 @@ export default function DocItemFooter() {
     <footer
       className={clsx(ThemeClassNames.docs.docFooter, "docusaurus-mt-lg")}
     >
+      {/* The courses section has been removed to not display under "Want to learn more?" */}
 
-      <h2 style={{marginTop: 60, marginBottom: 32, fontSize: 32}}>
-       Want to learn more?</h2>
-      <div className={styles.courses}>
-        {/* for oai */}
-        {courses.filter(c => c).slice(0, 2).map(c => <Course key={c.name} src={c.src} srcset={c.srcset} {...c}/>)}
-      </div>
-
-      <br />
+      {/* <br />
       <SignUp/>
       {canDisplayTagsRow && <TagsRow tags={tags} />}
       {canDisplayEditMetaRow && (
@@ -114,8 +108,8 @@ export default function DocItemFooter() {
           lastUpdatedBy={lastUpdatedBy}
           formattedLastUpdatedAt={formattedLastUpdatedAt}
         />
-      )}
-
+      )} */}
     </footer>
   );
 }
+

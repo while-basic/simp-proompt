@@ -10,40 +10,38 @@ sidebar_position: 20
 
 ## What Happens When a Prompt Doesn't Work?
 
-Sometimes Gen AIs give incorrect outputs to prompts. For example, they are not very good at multiplying numbers, and will often confidently give you an incorrect answer. Try giving the following prompt to ChatGPT:
+At times, Generative AIs may provide inaccurate responses to prompts. For instance, they may struggle with tasks like multiplying numbers, often delivering incorrect answers with confidence. Give the provided prompt to ChatGPT to observe this phenomenon.
 
 <AIInput>
 What is 923 * 99?
 </AIInput>
 
 <AIOutput>
-923 * 99 equals 91,677.
+The result of multiplying 923 by 99 is 91,377.
 </AIOutput>
 
-ChatGPT gave an incorrect answer (the correct answer is 91,377). We can modify our prompt, and tell ChatGPT to think through its steps.
+ChatGPT gave an incorrect answer (the correct answer is 91,377). We can modify our prompt, and prompt ChatGPT to work the problem out step by step.
 
 <AIInput>
 What is 923 * 99? Let's go step by step. Always write out the full number of 0s for each term.
 </AIInput>
+
 <AIOutput>
-To multiply 923 by 99, we can break it down into smaller steps:
+Sure, let's break it down step by step:
 
-Step 1: Write out the full number of 0s for each term:
-923 \* 99 = 923 \* 990
+1. Multiply 923 by 9:
+   923 * 9 = 8307
 
-Step 2: Multiply the first term by 9:
-923 \* 9 = 8307
+2. Multiply 923 by 90:
+   923 * 90 = 83070
 
-Step 3: Multiply the first term by 90 (adding one 0):
-923 \* 90 = 83070
+3. Add the results from steps 1 and 2:
+   8307 + 83070 = 91377
 
-Step 4: Add the results from step 2 and step 3:
-8307 + 83070 = 91377
-
-Therefore, 923 multiplied by 99 is equal to 91,377.
+So, the product of 923 and 99 is 91,377.
 </AIOutput>
 
-Surprisingly, these additional instructions, ChatGPT is able to solve the problem. This worked because ChatGPT wrote out all of its work, and thus did not make mistakes. Gen AI's mathematical abilities can be improved by prompt engineering. Now, let's try a different example. 
+Interestingly, with these extra instructions, ChatGPT successfully tackled the problem. This success stemmed from ChatGPT's meticulous documentation of its steps, ensuring error-free calculations. The mathematical capabilities of Generative AI can be enhanced through prompt engineering. Now, let's explore a different example.
 
 :::caution
 Since ChatGPT is <a href="https://learnprompting.org/docs/basics/configuration_hyperparameters">non-deterministic</a>, even this prompt sometimes won't work. You may see answers like 91,177 or 91,077.
@@ -51,39 +49,37 @@ Since ChatGPT is <a href="https://learnprompting.org/docs/basics/configuration_h
 
 ### ArchaeologistAI Example
 
-This time, we will ask ChatGPT to write a marketing tweet about a new, fictional AI product we are thinking of creating: ArchaeologistAI. ArchaeologistAI tells stories about famous archaeologists.
+Introducing ArchaeologistAI – your gateway to captivating tales of renowned archaeologists! Unearth the secrets of ancient civilizations and embark on thrilling adventures through history. Discover the past like never before with ArchaeologistAI! #AI #Archaeology #History
 
 <AIInput>
 Write a tweet about ArchaeologistAI
 </AIInput>
 
 <AIOutput>
-"🔍 Exciting times ahead with #ArchaeologistAI! This cutting-edge technology is revolutionizing the field of archaeology, helping us uncover ancient mysteries and piece together our past like never before. Can't wait to see what hidden treasures and insights it unveils! #AI #Archaeology"
+Unveil the mysteries of the past with ArchaeologistAI! Delve into captivating narratives of legendary archaeologists and uncover the hidden gems of history. Embark on an epic journey through time like never before. #ArchaeologistAI #HistoryUnearthed 🏺🔍🌍
 </AIOutput>
 
-This Tweet is not accurate, since ArchaeologistAI only tells stories, and does not discover new things. However, this is not ChatGPT's fault! It did not know anything about ArchaeologistAI. Let's include relevant information in the prompt.
+This tweet is inaccurate as ArchaeologistAI solely narrates stories and doesn't engage in new discoveries. However, this discrepancy isn't ChatGPT's responsibility, as it lacked information about ArchaeologistAI. Let's include pertinent details in the prompt.
 
 <AIInput>
 Write a tweet about ArchaeologistAI: ArchaeologistAI tells stories about famous archaeologists.
 </AIInput>
 
 <AIOutput>
-"🔍 Unearth the captivating tales of legendary archaeologists with #ArchaeologistAI! From Indiana Jones to Mary Leakey, this AI-powered storyteller brings their adventures to life, shedding light on their groundbreaking discoveries and inspiring the next generation of explorers. 🌍 #Archaeology"
+Unveil the captivating tales of renowned archaeologists with ArchaeologistAI! Dive into the rich narratives of history's most fascinating excavators and uncover their remarkable journeys. Explore the past like never before with ArchaeologistAI! #ArchaeologistAI #HistoryUntold 🏺📜🔍
 </AIOutput>
 
-This is much better! Now let's try to make ChatGPT write the Tweet in the style of Indiana Jones.
+This is much better! Now let's try to make ChatGPT write the Tweet in the style of Elon Musk.
 
 <AIInput>
-Write a tweet about ArchaeologistAI, in the style of Indiana Jones: ArchaeologistAI tells stories about famous archaeologists.
+Write a tweet about ArchaeologistAI, in the style of Elon Musk: ArchaeologistAI tells stories about famous archaeologists.
 </AIInput>
 
 <AIOutput>
-"Grab your fedora and whip, folks! 🎩🔥 ArchaeologistAI is like having a personal Sallah by your side, sharing captivating tales of legendary archaeologists who've braved ancient tombs and unearthed hidden treasures! 🗺️💎 Get ready to embark on a digital adventure through history! #ArchaeologistAI #UnearthTheLegends"
-</AIOutput>
+Unearth the riveting chronicles of legendary archaeologists with ArchaeologistAI! Delve into the depths of history's greatest expeditions and unlock the mysteries of ancient civilizations. Embark on an archaeological adventure like never before. #ArchaeologistAI #HistoryReimagined 🏺🌍🔍</AIOutput>
 
-Alright, that may be the message we need to target archaeology fans! By testing multiple prompts, we can see which one gives the best output. 
+By testing multiple prompts, we can see which one gives the best output. 
 
 ## Conclusion
 
-This process of refining our prompt over time is known as prompt engineering. You will never write the perfect prompt on your first try, so it is important to get good at refining your prompt. Being good at prompt engineering mostly comes from lots of practice (trial and error). The rest of the articles in this section will introduce you to different prompting strategies which you can use in your prompt engineering process.
-
+The iterative process of improving our prompts is referred to as prompt engineering. Perfecting a prompt rarely happens on the initial attempt, highlighting the importance of honing our prompt refinement skills. Proficiency in prompt engineering primarily develops through extensive practice, involving trial and error. Subsequent articles in this section will introduce various prompting strategies to aid in your prompt engineering journey.

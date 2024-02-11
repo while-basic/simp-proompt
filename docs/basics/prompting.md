@@ -11,61 +11,55 @@ import Interface from '@site/docs/assets/basics/chatgpt_interface.webp';
 <br/>
 
 :::takeaways
-- Set up ChatGPT
+- Setting up ChatGPT
 - Use ChatGPT to summarize text and solve a math problem
 :::
 
-In the previous module, we discussed AI and how humans can instruct AIs to perform tasks.
-Using a prompt to instruct an AI to do a task is called prompting(@shin2020autoprompt). We will explore prompting with [ChatGPT](http://chat.openai.com)[^a], a very popular Large Language Model (%%LLM|LLM%%), that can understand and write text. It was developed by OpenAI, and is currently the easiest Gen AI to work with. It is also completely free to use.
+In the preceding module, we covered the concept of AI and how humans can direct AIs to carry out tasks. Prompting, a method of instructing an AI to perform a task, was discussed (@shin2020autoprompt). In this module, we will delve into prompting using ChatGPT, a highly renowned Large Language Model (LLM) accessible at [ChatGPT](http://chat.openai.com)[^a]. Developed by OpenAI, ChatGPT is exceptionally user-friendly and completely free to utilize, making it the most accessible Gen AI currently available for experimentation and implementation.
 
 ## Set up ChatGPT
 
 To get started with ChatGPT, follow these steps:
 
 - Navigate to [http://chat.openai.com](http://chat.openai.com)
-- It should ask you to make an account. Go ahead and do so.
-- Log in with this account
-
-Here is a video that shows you how to get setup with ChatGPT.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FMEzy2jo84c" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+- Create a new account 
+- Log in to ChatGPT.
 
 ## Test Some Prompts on ChatGPT
 
-Now that we have ChatGPT set up, let's test out some prompts.
+Now that we're all set up, let's try some prompts.
 
-#### 1) Color of Grass
+#### 1) Color of the sky
 
-We will start with something very simple: can ChatGPT tell us the color of grass?
+We will start with something very simple: can ChatGPT tell us the color of the sky?
 
 <AIInput>
-What color is grass?
+What color is the sky?
 </AIInput>
 
 <AIOutput>
-Grass is green.
+The color of the sky is typically blue.
 </AIOutput>
 
-Indeed it can, now let's try a more useful example.
+Now let's try another example.
 
 #### 2) Summarizing an Article
 
-Say you are reading an article about snowfall in Florida. You want to quickly get the main ideas of the article, so you show the AI what you are reading, and ask for a summary[^b]:
+Say you are reading an article about rain in Texas. You want to quickly get the main ideas of the article, so you show the AI what you are reading, and ask for a summary[^b]:
 
 <AIInput>
-It is very rare for snow to fall in the U.S. state of Florida, especially in the central and southern portions of the state. With the exception of the far northern areas of the state, most of the major cities in Florida have never recorded measurable snowfall, though trace amounts have been recorded, or flurries in the air observed few times each century. According to the National Weather Service, in the Florida Keys and Key West there is no known occurrence of snow flurries since the European colonization of the region more than 300 years ago. In Miami, Fort Lauderdale, and Palm Beach there has been only one known report of snow flurries observed in the air in more than 200 years; this occurred in January 1977. In any event, Miami, Fort Lauderdale, and Palm Beach have not seen snow flurries before or since this 1977 event.
-
+Snowfall in the state of Florida, particularly in its central and southern regions, is exceedingly rare. While some trace amounts or flurries have been recorded, especially in the northern areas, major cities such as Miami, Fort Lauderdale, and Palm Beach have very infrequently experienced snow flurries. The National Weather Service notes that no snow flurries have been reported in the Florida Keys and Key West since European colonization over 300 years ago. In the case of Miami, Fort Lauderdale, and Palm Beach, there has been only one documented instance of snow flurries observed in the air in over 200 years, which took place in January 1977. Since then, these cities have not witnessed any further occurrences of snow flurries.
 Summarize this paragraph in a single sentence:
 </AIInput>
 
 Here is ChatGPT's response. It is a much shorter read!
 
 <AIOutput>
-Snowfall is extremely rare in Florida, with the exception of the far northern areas, and only one instance of snow flurries in the air has been recorded in the major cities of Miami, Fort Lauderdale, and Palm Beach in the last 200 years.
+Snowfall in Florida, particularly in its central and southern regions, is extremely rare. Major cities like Miami, Fort Lauderdale, and Palm Beach have experienced minimal snow events, with only one documented instance of snow flurries observed in over 200 years, occurring in January 1977. The Florida Keys and Key West have not recorded any snow flurries since European colonization over 300 years ago.
 </AIOutput>
 
 :::caution
-You will likely see a slightly different output. This will be the case for most prompts in this course. We will learn why later in this module.
+You are more than likely to see a different response. This will be the case for most prompts in this course. We will learn why more later in this module.
 :::
 
 #### 3) Math Problem Solving
@@ -74,23 +68,18 @@ ChatGPT can also solve math problems! Let's give it a prompt with a simple probl
 
 
 <AIInput>
-If I have 20 apples, eat three of them, and sell three more, how many do I have left?
+If I have 20 kittens, rehome three of them, and sell three more, how many do I have left?
 </AIInput>
 
 <AIOutput>
-If you have 20 apples and you eat three of them, you will have 20 - 3 = 17 apples left.
+1. Start with 20 kittens.
+2. Rehome 3 kittens: 20 - 3 = 17 kittens left.
+3. Sell 3 more kittens: 17 - 3 = 14 kittens left.
 
-After eating three apples (17 left), if you sell three more, you will have 17 - 3 = 14 apples left.
+You have 14 kittens left.
 </AIOutput>
 
 
 ## Conclusion
 
-You should now be comfortable with what a %%prompt|prompt%% is, and how to do some basic prompting with ChatGPT.
-Keep in mind that *prompt* can be a verb or a noun. You can *prompt* a model or you can *give* a model a prompt. These two phrases mean the same thing. The action of giving a model a prompt is called prompting. We will learn more about prompting in the next lesson.
-
-
-
-
-[^a]: GPT-4 is another model developed by OpenAI that is more advanced, but costs money.
-[^b]: This paragraph is from https://en.wikipedia.org/wiki/Snow_in_Florida
+Ensure you're now familiar with the concept of a %%prompt|prompt%% and basic prompting techniques using ChatGPT. Remember, *prompt* can function as both a verb and a noun. You can either *prompt* a model or provide a model with a prompt, with both actions having the same meaning. This process of giving a model a prompt is referred to as prompting. Further insights into prompting will be covered in the upcoming lesson.

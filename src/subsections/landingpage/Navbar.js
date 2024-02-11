@@ -32,44 +32,44 @@ function Navbar(props) {
       name: "About",
       link: "/about",
     },
-    {
-      name: "Contribute",
-      link: "/contribute",
-    },
-    {
-      name: "Newsletter",
-      link: "#newsletter",
-    },
-    {
-      name: "Our Services",
-      link: "/our_services",
-    },
-    {
-      name: "Certificate",
-      link: "/certificate",
-    },
+    // {
+    //   name: "Contribute",
+    //   link: "/contribute",
+    // },
+    // {
+    //   name: "Newsletter",
+    //   link: "#newsletter",
+    // },
+    // {
+    //   name: "Our Services",
+    //   link: "/our_services",
+    // },
+    // {
+    //   name: "Certificate",
+    //   link: "/certificate",
+    // },
   ];
 
   const rightLinks = [
     {
       name: "Discord",
-      link: "https://discord.gg/learn-prompting-1046228027434086460",
+      link: "https://discord.gg/",
     },
     {
       name: "GitHub",
-      link: "https://github.com/trigaten/Learn_Prompting",
+      link: "https://github.com/while-basic/",
     },
     {
       name: "Twitter",
-      link: "https://twitter.com/learnprompting",
+      link: "https://twitter.com/Im_Mr_Chris",
     },
     {
       name: "LinkedIn",
-      link: "https://www.linkedin.com/company/learn-prompting",
+      link: "https://www.linkedin.com/in/christophercelaya/",
     },
     {
       name: "Contact",
-      link: "mailto:team@learnprompting.org",
+      link: "mailto:chris@chriscelaya.xyz",
     },
   ];
 

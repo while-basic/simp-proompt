@@ -54,7 +54,7 @@ You should now be able to use the embeds throughout this site. Note that OpenAI 
 
 ### Using the Embed
 
-Let's learn how to use the embed. Edit the "Type your prompt here" field. This embed is effectively the same as using ChatGPT, except that you cannot have a full conversation. In this course, the embeds are just used to show examples of prompt engineering techniques.
+Discover how to utilize the embed feature by modifying the "Type your prompt here" section. This embed functions similarly to ChatGPT, with the main difference being the inability to engage in extended dialogues. Within this course, embeds serve to illustrate various prompt engineering strategies.
 
 <iframe
     src="https://embed.learnprompting.org/embed?config=eyJ0b3BQIjowLCJ0ZW1wZXJhdHVyZSI6MCwibWF4VG9rZW5zIjoyNTYsIm91dHB1dCI6Ik91dHB1dCBhcHBlYXJzIGhlcmUiLCJwcm9tcHQiOiJUeXBlIHlvdXIgcHJvbXB0IGhlcmUiLCJtb2RlbCI6ImdwdC0zLjUtdHVyYm8ifQ%3D%3D"
@@ -62,15 +62,15 @@ Let's learn how to use the embed. Edit the "Type your prompt here" field. This e
     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
-You can see four pieces of information under the Generate button. The left one, 'gpt-3.5-turbo' is the model (gpt-3.5-turbo is the technical name for ChatGPT). The three numbers are [LLM settings](https://learnprompting.org/docs/basics/configuration_hyperparameters), which we will learn about in a few articles. If you would like to make your own embed, click the
-edit this embed button.
+Beneath the Generate button, you'll notice four details, with the leftmost indicating the model used, 'gpt-3.5-turbo' (which is the formal identifier for ChatGPT). To customize your own embed, select the edit this embed option.
+
 
 ## Conclusion
 
-These embeds will make it easier for you to learn throughout the course, since you can quickly test your prompts, without clicking into a different tab. However, you do not have to use the embeds if you prefer the ChatGPT interface. Just continue to copy and paste prompts into ChatGPT. If you do intend to use the embeds, write down your API key somewhere, since the OpenAI website only allows you to see it once.
+Utilizing these embeds will facilitate your learning process in the course by allowing for immediate testing of prompts without the need to switch tabs. Nonetheless, if you prefer working directly with the ChatGPT interface, you're free to do so by simply copying and pasting your prompts into ChatGPT. Should you choose to work with embeds, remember to securely note your API key, as OpenAI's site reveals it only once.
 
 :::caution
-Never tell anyone your API key, since they could charge your account with prompts.
+Never tell anyone your API key, this will charge your account with prompts.
 :::
 
 [^a]: See full pricing information [here](https://openai.com/pricing)

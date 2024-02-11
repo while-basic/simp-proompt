@@ -16,16 +16,15 @@ import RolePrompt from '@site/docs/assets/basics/role_prompt.svg';
 - Use role prompts to style text and improve accuracy
 :::
 
-Role prompting[^a] is a technique that can be used to control the style of AI generated text(@shanahan2023roleplay)(@li2023camel)(@santu2023teler). It can also improve the AI's accuracy when solving math problems. Implementing role prompting is as simple as instructing the AI to "embody a food critic" or to "act like a detective". Role prompting is a widely used technique, and is used in many of the examples on this site.
-
+ Role prompting serves as a valuable tool for directing the tone of artificially intelligent-generated text, as well as increasing the precision of its mathematical problem-solving capabilities. By simply commanding the AI to assume identities such as those of a culinary critic or investigative detective, role prompting can be effectively implemented. This method boasts widespread usage, with numerous instances featured throughout this very website.
 
 ## Styling Text
 
-Role prompting is most often used to style text. This involves asking the AI to pretend to be a certain person, or act in a certain way, thus modifying how it writes based on the assigned role. This can be used to change the tone, style, and even the depth of the information presented. Let's delve into this concept with a food review example.
+Role prompting primarily finds utility in styling text by guiding the AI to simulate being a specific individual or behave in a particular manner, thereby influencing the written output based on the assumed character. The application of this technique enables adjustments to the tone, format, and comprehensiveness of conveyed data. We will illustrate this idea through the lens of a restaurant evaluation:
 
 ### Food Review Example
 
-When writing a review, it's important to tailor your approach based on the platform you're using and the audience you're writing for. Simply copying and pasting the same review across various sites like Google Reviews, TripAdvisor, and Yelp is not an effective strategy, especially if you're writing for a food critic in a magazine or blog post. To ensure your review resonates with your intended audience, consider factors like length, style, language, and tone, and use these to craft a review that speaks directly to your readers' interests and expectations. With a thoughtful approach and a focus on quality content, you can create a review that truly captures the essence of the pizza place you're writing about. Let's start with a simple prompt without a role.
+Writing evaluations necessitates adapting one's approach contingent upon the medium utilized and the target demographic. Mechanically reproducing identical assessments across diverse platforms, say Google Reviews, TripAdvisor, and Yelp, proves counterproductive - particularly for critics penning articles in magazines or blogs. Aiming for optimal engagement, carefully contemplate aspects like word count, formatting, terminology, and tonality; subsequently, fashion a critique catering to your reader's inclinations and anticipation. Through careful planning and emphasizing substantive material, produce an appraisal genuinely encapsulating the pizzeria under scrutiny. Commence with a rudimentary prompt absent any designated roles.
 
 <AIInput>
 Write a review of [pizza place].
@@ -179,6 +178,4 @@ Try it here:
 
 ## Conclusion
 
-Role prompting is a powerful strategy for shaping the output of Generative AI models. It allows us to control the style, tone, and depth of the generated text, making it more suitable for specific contexts or audiences. Whether you're drafting an email, writing a review, or solving a math problem, role prompting can significantly enhance the quality and accuracy of the results. As we continue to explore the capabilities of AI, role prompting will remain a key prompt engineering strategy.
-
-[^a]: This appears to be less effective with newer models. Read [Revisiting Roles](https://learnprompting.org/docs/intermediate/revisiting_roles) for more information.
+Role prompting lets you guide what text AI creates. It helps make the writing match how you want it to sound and what facts you want included. This makes the text work better for who will read it and where it will go. When you role prompt the AI, tell it a role to play. Should it be friendly like it's writing an email? Should it be detailed like writing a product review? Should it focus on math formulas? Then the AI will follow that role. It will choose words, tone and facts a certain way. As we use AI more, role prompting will stay important. It's a key way to get better results from text AI.

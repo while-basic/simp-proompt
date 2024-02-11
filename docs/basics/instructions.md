@@ -1,7 +1,7 @@
 ---
 sidebar_position: 50
 ---
-# 🟢 Giving Instructions
+# 🟢 Instructions
 
 import InstructionPrompt from '@site/docs/assets/basics/instruction_prompt.svg';
 
@@ -15,7 +15,7 @@ import InstructionPrompt from '@site/docs/assets/basics/instruction_prompt.svg';
 - Understand complex applications of instruction prompting
 :::
 
-We will now cover our first prompting technique, *instruction prompting*(@efrat2020turking)(@mishra2022reframing). We have already seen simple instructions used in previous articles (e.g. getting an AI to solve the math problem). However,
+We will now cover our first prompting technique, *instruction prompting*. We have already seen simple instructions used in previous articles (e.g. getting an AI to solve the math problem). However,
 we can instruct Gen AIs to do much more complex tasks.
 
 ### Name Parsing Example

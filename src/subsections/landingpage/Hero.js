@@ -54,12 +54,10 @@ function Hero() {
           className="text-center text-3xl md:text-7xl font-vietnam md:font-medium font-semibold tracking-tighter lg:px-8 2xl:px-32 pt-8"
           style={{ color: "black" }}
         >
-          Your Guide to Communicating with Artificial Intelligence
+          Communicating with Artificial Intelligence
         </div>
         <div className="text-center text-default text-sm font-vietnam font-light tracking-tighter px-4 md:px-10 lg:px-20 xl:px-60 pt-8">
-          Learn how to use ChatGPT and other AI tools to accomplish your goals
-          using our free and open source curriculum, designed for all skill
-          levels!
+        Discover how to utilize ChatGPT and other AI tools to achieve your objectives with our complimentary and open-source curriculum, suitable for individuals of all proficiency levels!
         </div>
         <div className="flex items-center justify-center pt-6">
           <a href="https://learnprompting.org/docs/intro">

@@ -69,11 +69,11 @@ function FAQ() {
       >
         <span style={{ color: "black" }}>Frequently Asked Questions</span>
       </div>
-      <div className="text-left md:text-center text-default text-sm pt-2 font-vietnam font-light tracking-tight md:px-28 md:pt-4 md:text-md mb-4 md:mb-0 ">
+      {/* <div className="text-left md:text-center text-default text-sm pt-2 font-vietnam font-light tracking-tight md:px-28 md:pt-4 md:text-md mb-4 md:mb-0 ">
         Can't find what you are looking for?{" "}
         <span className={"underline"}>
           <a
-            href={"mailto:team@learnprompting.org"}
+            href={"mailto:chris@chriscelaya.xyz"}
             className="underline"
             style={{ color: "grey" }}
           >
@@ -87,7 +87,7 @@ function FAQ() {
             </span>
           </a>
         </span>
-      </div>
+      </div> */}
 
       <div className="flex flex-col md:flex-row justify-around pt-4 md:pt-20 gap-8 md:gap-24">
         <div
